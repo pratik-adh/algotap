@@ -1,5 +1,5 @@
 {
-  "name": "tiptap",
+  "name": "algotap",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@tiptap/core": "^2.1.10",
+    "@tiptap/extension-color": "^2.1.10",
+    "@tiptap/extension-image": "^2.1.10",
+    "@tiptap/extension-link": "^2.1.10",
+    "@tiptap/extension-list-item": "^2.1.10",
+    "@tiptap/extension-text-align": "^2.1.10",
+    "@tiptap/extension-text-style": "^2.1.10",
+    "@tiptap/extension-underline": "^2.1.10",
+    "@tiptap/pm": "^2.1.10",
+    "@tiptap/react": "^2.1.10",
+    "@tiptap/starter-kit": "^2.1.10",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "algoliasearch": "^4.20.0",
+    "antd": "^5.8.5",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "formik": "^2.4.5",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "styled-components": "^6.0.7",
+    "typescript": "5.2.2",
+    "yup": "^1.2.0"
   }
 }
